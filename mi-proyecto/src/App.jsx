@@ -1,10 +1,11 @@
-import AppJSX from "./AppJSX";  // Importas el componente
+
+import LoginFormBoostrap from "./LoginFormBoostrap.jsx";
 
 function App() {
   return (
-    <div>
-      <h1>Probando Ejemplo</h1>
-      <AppJSX/>   {/* Aquí se muestra */}
+    <div className="container mt-5">
+      <h1 className="text-center mb-4">Ejemplo React</h1>
+      <LoginFormBoostrap />
     </div>
   );
 }

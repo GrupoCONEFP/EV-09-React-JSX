@@ -9,7 +9,7 @@ function App() {
     React.createElement(
       "ul",
       null,
-      React.createElement("li", null, "Estudiar React"),
+      React.createElement("li", null, "Estudiar React 2"),
       React.createElement("li", null, "Hacer ejercicios"),
       React.createElement("li", null, "Preparar presentación")
     )
